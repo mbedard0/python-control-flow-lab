@@ -10,3 +10,14 @@
 #      The dog's age in dog years is xx
 
 # Hint:  Use the int() function to convert the string returned from input() into an integer
+
+dog_age = int(input("Input a dog's age in human years:"))
+
+#  x -> 2*10 + (x-2)*7
+
+if dog_age >= 3:
+  real_age = ((dog_age - 2) * 7) + 20
+  print(f"The dog's age in dog years is {real_age}")
+if dog_age < 2:
+  real_age = dog_age * 10
+  print(f"The dog's age in dog years is {real_age}")
