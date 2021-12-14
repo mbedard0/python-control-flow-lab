@@ -20,18 +20,7 @@ n_h = 0
 
 while t < 50:
   print(f'term: {t} / number: {n}')
-  # n = 0
-  # n = 1
-  # n = 1
   t += 1
   n_h = n
-  #  n_h = 0
-  #  n_h = 1
-  #  n_h = 1
   n += n_q
-  # 0 += 1 -> n = 1
-  # 1 += 0 -> n = 1
-  # 1 += 1 -> n = 2
   n_q = n_h
-  #  n_q = 0
-  #  n_q = 1

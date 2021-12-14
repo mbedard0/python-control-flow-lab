@@ -35,16 +35,9 @@ twenty_days = range(20, 31)
 twenty_beginning_days = range(1, 21)
 twenty_one_beginning_days = range(1, 22)
 sep_fall_days = range(1, 23)
-# up_to_twenty_one_days = 
-# spring_days = []
-# summer_days = []
-# fall_days = []
 
 month = input('Enter the month of the year (Jan - Dec):')
 day = int(input('Enter the day of the month:'))
-
-# if month in winter_months and day in winter_days:
-#   print(f'{month} {day} is in Winter')
 
 if month in winter_months or month in winter_edge_months:
   if month in winter_months == winter_months:
